@@ -1,7 +1,9 @@
 # Kubernetes DevSecOps CICD Project Using Github Actions and ArgoCD
+
+![312611375-a0dfce93-3bde-45af-b82a-d7c9e2c47294](https://github.com/satyazzz123/react-quiz-EKS-deployment/assets/105061492/54fd7b23-db3c-4334-94e9-dbcbcc363620)
+
 # Project Overview
-This project aims to streamline deployment and management activities on AWS using a combination of IAM, Terraform, GitHub Actions, and Kubernetes
-![gif2](https://github.com/cloudcore-hub/reactjs-quiz-app/assets/88560609/a0dfce93-3bde-45af-b82a-d7c9e2c47294). Also stored the terraform.tfstate file in a s3 bucket 
+This project aims to streamline deployment and management activities on AWS using a combination of IAM, Terraform, GitHub Actions, and Kubernetes. Also stored the terraform.tfstate file in a s3 bucket 
 # Key Components
 - IAM User Setup: Creation of an IAM user with necessary permissions for AWS deployment and management.
 - Infrastructure as Code (IaC): Utilization of Terraform and AWS CLI for setting up the Jumphost server (EC2 instance) on AWS .Used yet another Github workflow to automate it https://github.com/satyazzz123/iac_code.git .
